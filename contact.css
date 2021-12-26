@@ -1,0 +1,97 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    background-color: lavenderblush;
+    
+}
+nav{
+    background-color: black;
+}
+nav li, a, button{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: mediumblue;
+    text-decoration:none;
+}
+header{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+    background-color: black;
+}
+.nav_elements{
+    background-color: black;
+    list-style-type:none;
+}
+.nav_elements li{
+    background-color: black;
+    display:inline-block;
+    padding:0 20px;
+}
+.nav_elements li a{
+    background-color: black;
+    transition: all 0.3s ease 0s ;
+}
+.nav_elements li a:hover{
+    color:whitesmoke;
+}
+.c{
+    padding:9px;
+    background-color:rgba(0,136,169,1);
+    border:none;
+    border-radius:50px;
+    transition: all 0.3s ease 0s ;
+    cursor: pointer;
+    color:black;
+    font-weight: bold;
+}
+.c:hover{
+    background-color: white;
+}
+
+.signup1{
+    position:relative;
+    background-color: lavenderblush;
+    padding:400px;
+    padding-top: 100px;
+    height:650px;
+    width:1000;
+}
+form{
+    background-color:rgb(214, 129, 214);
+    width:700px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    padding:20px;
+    
+}
+h1{
+    padding-left: 10px;
+    font-size: 40px;
+    font-family: 'Lucida Handwriting';
+    font-weight: bolder;
+    color:mediumblue;
+    background-color:rgb(214, 129, 214);
+    width:700px;
+}
+h3{
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: rgb(214, 129, 214);
+    color:mediumblue;
+    font-family: 'Lucida Handwriting';
+    font-weight: bolder;
+    font-size: 20px;
+    width: 700px;
+}
+button{
+    width:60px;
+    background-color: mediumblue;
+}

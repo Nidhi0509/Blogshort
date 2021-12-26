@@ -1,0 +1,191 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    background-color: lavenderblush;
+    
+}
+nav{
+    background-color: black;
+}
+li, a, button{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: mediumblue;
+    text-decoration:none;
+}
+header{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+    background-color: black;
+}
+.nav_elements{
+    background-color: black;
+    list-style-type:none;
+}
+.nav_elements li{
+    background-color: black;
+    display:inline-block;
+    padding:0 20px;
+}
+.nav_elements li a{
+    background-color: black;
+    transition: all 0.3s ease 0s ;
+}
+.nav_elements li a:hover{
+    color:whitesmoke;
+}
+.c{
+    padding:9px;
+    background-color:rgba(0,136,169,1);
+    border:none;
+    border-radius:50px;
+    transition: all 0.3s ease 0s ;
+    cursor: pointer;
+    color:black;
+    font-weight: bold;
+}
+.c:hover{
+    background-color: white;
+}
+div.sub{
+    
+    float: left;
+    left:150px;
+    top:200px;
+    position:absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    
+  }
+  h1{
+      font-size: 50px;
+      font-weight:bold;
+  }
+  p{
+      font-size:20px;
+      
+      
+  }
+  .img{
+      position: absolute;
+      left:950px;
+      top:200px;
+      border-radius: 200px;
+      
+  }
+  .sub, .img{
+      display:inline-block;
+  }
+  div.signup{
+   position: absolute;
+   top:1700px;
+   left:30px;
+  
+   
+   
+  }
+  h2{
+      font-size:40px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  h3{
+      font-size:30px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  footer{
+      
+      font-size: 20px;
+  }
+  #submit{
+      font-size: 20px;
+      border-radius: 50px;
+      border-color:blue;
+      padding:9px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+
+  }
+  div.education{
+     
+      position:absolute;
+      top:700px;
+      left:230px;
+      border: 1px solid;
+      padding: 10px;
+      box-shadow: 5px 10px #888888;
+      cursor: pointer;
+  }
+  div.sports{
+      
+      position:absolute;
+      top:700px;
+      left:900px;
+      border: 1px solid;
+      padding: 10px;
+      box-shadow: 5px 10px #888888;
+      cursor: pointer;
+  }
+  div.health{
+     
+      position:absolute;
+      top:1200px;
+      left:230px;
+      border: 1px solid;
+      padding: 10px;
+      box-shadow: 5px 10px #888888;
+      cursor: pointer;
+  }
+  div.food{
+      
+      position:absolute;
+      top:1200px;
+      left:900px;
+      border: 1px solid;
+      padding: 10px;
+      box-shadow: 5px 10px #888888;
+      cursor: pointer;
+  }
+  div.contact1{
+      position:absolute;
+      top:1700px;
+     left:1200px;
+     bottom:0;
+  }
+  div.follow{
+      position:absolute;
+      top:1800px;
+      left:1200px;
+      bottom:0;
+      display:inline-block;
+  }
+  div.follow img{
+      height:30px;
+      width:30px;
+  }
+  .edu:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .sport:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .health:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height:170px;
+    width:270px;
+  }
+  .food:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height:170px;
+    width:270px;
+  }
